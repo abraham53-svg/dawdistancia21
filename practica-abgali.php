@@ -36,6 +36,9 @@ $resultado = $n1 * $n2;
 }
 return $resultado; // Devolver el resultado
 }
+function bar(){
+echo "se imprime este texto";
+}
 /**
  * Aquí empezamos a invocar funciones
  * @access public
@@ -44,4 +47,5 @@ echo mostrarTexto("Tarea unidad 5 despliegue de aplicaciones web");
 echo "<br>";
 $r = operaciones(5, 7, "Sumar");
 echo "Resultado operacion:". $r . "<br>";
+bar();
 ?>
